@@ -1,30 +1,31 @@
 
 console.log("oi gente");
 
-//localStorage.setItem("nome1","João Alface")
-//let nome = localStorage.getItem("nome1")
+//localStorage.setItem("username","João Alface")
+//let nome = localStorage.getItem("username")
 //console.log("nome",nome);
 
-//localStorage.setItem("idade1",23)
-//let idade = localStorage.getItem("idade1")
-//console.log("idade",idade);
+//localStorage.setItem("userage",23)
+//let age = localStorage.getItem("userage")
+//console.log("age",age+1);
 
-let txtUsuario = `{ 
-    "nome": "Ana", 
-    "idade": 23, 
-    "email": "m@m.com" 
-}`
+let user = {
+    "name": "João Alface",
+    "age": 23,
+    "email": "joao@joao.com",
+    "login": "joao"
+}
 
-let objUsuario = JSON.parse(txtUsuario)
-console.log(txtUsuario);
-console.log(objUsuario);
+console.log("user",user);
 
-localStorage.setItem("usuario1",txtUsuario)
+//let userTxt = `{
+//    "name": "João Alface",
+//    "age": 23,
+//    "email": "joao@joao.com",
+//    "login": "joao"
+//}`
 
-let value = localStorage.getItem("usuario1")
-let user = JSON.parse(value)
-console.log("usuario",user);
+let userTxt = JSON.stringify(user)
+console.log("userTxt",userTxt);
 
-//para converter de objeto para texto
-let texto = JSON.stringify(user)
-console.log("texto",texto);
+localStorage.setItem("user",userTxt)
