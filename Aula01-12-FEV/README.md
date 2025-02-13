@@ -2,9 +2,9 @@
 
 A propriedade localStorage permite acessar um valor do Storage local. 
 
-*localStorage.setItem()
-*localStorage.getItem()
+* localStorage.setItem()
+* localStorage.getItem()
 
 Conversão de Objetos para texto
-*JSON.parse()
-*JSON.stringify()
+* JSON.parse()
+* JSON.stringify()
