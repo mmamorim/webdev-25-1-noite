@@ -6,6 +6,8 @@ Existem duas formas:
 
 Para esta aula vamos apenas mostrar o uso do **ESM (EcmaScript Modules)**
 
+[referência Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Modules) 
+
 ## Exportando recursos do módulo
 
 Isso é feito usando a declaração ```export```
