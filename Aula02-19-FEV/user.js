@@ -1,11 +1,12 @@
-import { rgFake, nameFake, sobrenomeFake } from "./fakers.js"
+import { rgFake, nameFake, sobrenomeFake, emailFake } from "./fakers.js"
 
 export function createUser() {
+    let firstName = nameFake()
     let obj = {
-        firstName: nameFake(),
+        firstName,
         lastName: sobrenomeFake(),
         rg: rgFake(),
-        email: "m@m.com"
+        email: emailFake(firstName)
     }
     return obj
 }
