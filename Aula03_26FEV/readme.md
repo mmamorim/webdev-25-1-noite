@@ -68,3 +68,16 @@ Além da terminação ```.json``` em todos os arquivos que utilizam esse formato
 * **colchetes** ```[ ]``` para indicar um array;
 * **dois pontos** ```:``` para separar a chave e seu valor correspondente;
 * **vírgula** ```,``` para indicar a separação entre os elementos.
+
+
+## vamos brincar um pouco instalando alguns módulos....
+
+[readline-sync](https://www.npmjs.com/package/readline-sync)
+
+[chalk](https://github.com/chalk/chalk)
+
+
+### Apresentando o React
+
+[ViteJs](https://vite.dev/)
+
