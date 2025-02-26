@@ -1,0 +1,19 @@
+{
+  "name": "aula03_26fev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "fazAlgo": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "faker-br": "^0.4.1",
+    "readline-sync": "^1.4.10"
+  }
+}
