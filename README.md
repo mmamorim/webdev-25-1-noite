@@ -2,5 +2,5 @@
 
 # link deste repositório: https://github.com/mmamorim/webdev-25-1-noite
 
-* Aula 1 12/FEV - Local Storage [aula01](./Aula01-12-FEV/)
-* Aula 2 19/FEV - Modularização (import/export) [aula02](./Aula02-19-FEV/) 
+* [Aula 1](./Aula01_12FEV/) 12/FEV - Local Storage 
+* [Aula 2](./Aula02_19FEV/) 19/FEV - Modularização (import/export)  
