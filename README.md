@@ -5,3 +5,5 @@
 * [Aula 1](./Aula01_12FEV/) 12/FEV - Local Storage 
 * [Aula 2](./Aula02_19FEV/) 19/FEV - Modularização (import/export)  
 * [Aula 3](./Aula03_26FEV/) 26/FEV - NodeJS / npm / 
+* **CARNAVAL** 05/MAR
+* [Aula 4](./Aula04_12MAR/) 12/MAR - Introdução ao React + Vite 
