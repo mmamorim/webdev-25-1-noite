@@ -24,6 +24,7 @@ Quais são as vantagens sobre outros componentes de ícone?
 
 **Passo a passo para instalação:** [https://iconify.design/docs/icon-components/react/](https://iconify.design/docs/icon-components/react/)
 
+**lista de icones** [https://icones.js.org/collection/all](https://icones.js.org/collection/all)
 
 # useState
 
