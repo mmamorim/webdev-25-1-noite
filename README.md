@@ -7,3 +7,8 @@
 * [Aula 3](./Aula03_26FEV/) 26/FEV - NodeJS / npm / 
 * **CARNAVAL** 05/MAR
 * [Aula 4](./Aula04_12MAR/) 12/MAR - Introdução ao React + Vite 
+* [Aula 5](./Aula05_19MAR/) 19/MAR 
+  - Tailwind
+  - Iconify
+  - useState
+  - JSX  
