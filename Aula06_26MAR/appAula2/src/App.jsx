@@ -1,4 +1,5 @@
 import AddTaskBox from "./components/AddTaskBox";
+import TaskList from "./components/TaskList";
 import Topo from "./components/Topo";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Topo />
       <AddTaskBox />
+      <TaskList />
     </>
   )
 }
