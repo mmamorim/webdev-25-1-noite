@@ -1,5 +1,5 @@
 
-export function Topo() {
+export function NavBar() {
 
     return (
         <>

@@ -1,9 +1,9 @@
 import { useState } from "react";
 
-export function AddTodo() {
+export function AddTask() {
     const [ taskName, setTaskName ] = useState("Algo")
     
-    function addTask() {
+    function addTaskName() {
         console.log("addTask",taskName);
     }
 
@@ -20,7 +20,7 @@ export function AddTodo() {
                         <input value={taskName} onChange={(e) => setTaskName(e.target.value)} type="text" className="border border-black p-2" />
                     </div>
                     <div>
-                        <button onClick={addTask} className="border border-black p-1 rounded">
+                        <button onClick={addTaskName} className="border border-black p-1 rounded">
                             Adicionar
                         </button>
                     </div>
