@@ -1,10 +1,11 @@
 import { useState } from "react";
 
-export function AddTask() {
+export function AddTask({ onAdd }) {
     const [ taskName, setTaskName ] = useState("Algo")
     
     function addTaskName() {
         console.log("addTask",taskName);
+        onAdd(taskName)
     }
 
     return (

@@ -1,6 +1,11 @@
 import { Icon } from "@iconify/react";
 
-export default function TaskItem({ taskName }) {
+export default function TaskItem({ taskName, onRemove, idx }) {
+
+    function removeClick() {
+        console.log("removeClick");
+        onRemove(idx)
+    }
 
     return(
         <>
@@ -11,7 +16,7 @@ export default function TaskItem({ taskName }) {
                 <div className="mx-1 px-1 pt-1 text-xl text-green-600 bg-gray-300 rounded-lg">
                     <Icon icon="mdi:check" />
                 </div>
-                <div className="mx-1 px-1 pt-1 text-xl text-red-600 bg-gray-300 rounded-lg">
+                <div onClick={removeClick} className="mx-1 px-1 pt-1 text-xl text-red-600 bg-gray-300 rounded-lg">
                     <Icon icon="mdi:delete" />
                 </div>
             </div>
