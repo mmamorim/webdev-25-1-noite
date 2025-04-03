@@ -12,7 +12,8 @@ export default function TaskList() {
 
     function onRemoveItem(idx) {
         console.log("onRemoveItem: ",idx);
-        
+        taskList.splice(idx,1)
+        setTaskList([...taskList])
     }
 
     return (
