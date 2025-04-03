@@ -1,10 +1,11 @@
 import { useState } from "react";
 
-export default function AddTaskBox() {
+export default function AddTaskBox({ onAddTask }) {
     const [ taskName, setTaskName ] = useState("Alguma tarefa")
 
     function addTask() {
         console.log("addTask",taskName);
+        onAddTask(taskName)
     }
 
     return (
