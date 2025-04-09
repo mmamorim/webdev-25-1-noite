@@ -17,7 +17,8 @@ export default function TaskList() {
         //setTodoList([...todoList, taskName])
         let task = {
             id: sgdb.newID("task"),
-            task: taskName
+            task: taskName,
+            done: false
         }
         sgdb.data.todos[task.id] = task
         sgdb.write()
