@@ -14,3 +14,7 @@
   - useState
   - JSX  
 * [Aula 7](./Aula07_02Abr/) 02/ABR - Todo List
+* [Aula 8](./Aula08_09Abr/) 09/ABR 
+  - Todo List (A Revanche!)
+  - UseEffect
+  - Persistindo os dados com localStorage
