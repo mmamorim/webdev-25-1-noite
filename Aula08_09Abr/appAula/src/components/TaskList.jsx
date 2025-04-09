@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { AddTask } from "./AddTask";
 import TaskItem from "./TaskItem";
 import sgdb from "../sgdb.js"
@@ -7,6 +7,10 @@ sgdb.init()
 
 export default function TaskList() {
     const [todoList, setTodoList] = useState({})
+
+    useEffect(() => {
+        setTodoList(sgdb.getData().todos)
+    },[])
 
     function onTaskAdd(taskName) {
         console.log("onTaskAdd foi chamado com: ", taskName);
@@ -20,10 +24,12 @@ export default function TaskList() {
         setTodoList(sgdb.getData().todos)
     }
 
-    function onClickRemoveItem(idx) {
-        console.log("onClickRemoveItem", idx);
-        todoList.splice(idx, 1)
-        setTodoList([...todoList])
+    function onClickRemoveItem(id) {
+        console.log("onClickRemoveItem", id);
+        //todoList.splice(idx, 1)
+        delete sgdb.data.todos[id]
+        sgdb.write()
+        setTodoList(sgdb.getData().todos)
     }
 
     return (
