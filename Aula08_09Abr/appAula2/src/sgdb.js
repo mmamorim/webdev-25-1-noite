@@ -3,7 +3,9 @@ const storageKey = "todoData"
 
 const sgdb = {
     data: {
-        todos: {}
+        todos: {},
+        users: {},
+        products: {}
     },
     newID(prefix = "", len = 4) {
         // Generate a unique ID with prefix string
