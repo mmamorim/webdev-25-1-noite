@@ -21,3 +21,5 @@
 * Aula 9 - 16/ABR - CP4
 * [Aula 10](./Aula10_23Abr/) 23/ABR 
   - React Router
+* **APRESENTAÇÃO SPRINT 1** 07/MAI
+* [Aula 11 - CP6](https://github.com/mmamorim/CP6-Webdev) - 14/MAI 
